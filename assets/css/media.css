@@ -1,0 +1,31 @@
+@media(max-width:970px){
+    footer{
+        justify-content: space-around;
+    }
+}
+@media(max-width:650px){
+   .input input{
+    width: 300px;
+   }
+   header{
+    width: calc(100% - 62px);
+   }
+
+}
+@media(max-width:550px){
+    .input{
+width: 90%; 
+justify-content: center;   }
+footer{
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+}
+}
+@media(max-height:430px){
+    footer{
+        position: static;
+        margin:0px;
+    }
+}
